@@ -16,6 +16,10 @@ p
     color: white;
     text-align: left;
 }
+a
+{
+    color: red;
+}
 button
 {
     border-radius: 4px;
