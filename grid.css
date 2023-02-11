@@ -1,0 +1,17 @@
+.grid-container
+{
+    display: flex;
+    grid-template-columns: auto auto;
+}
+.grid-item
+{
+    color: white;
+    background-color: grey;
+    border: 2px solid white;
+    font-size: large;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+}
