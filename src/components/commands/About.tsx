@@ -8,7 +8,7 @@ const About: React.FC = () => {
   return (
     <AboutWrapper data-testid="about">
       <p>
-        Hi, my name is <HighlightSpan>Peanut</HighlightSpan>!
+        Hi, my name is <HighlightSpan>Peanut test</HighlightSpan>!
       </p>
       <p>
         I'm a<HighlightAlt> wannabe game developer</HighlightAlt> based in Victoria,
