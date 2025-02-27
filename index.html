@@ -1,62 +1,79 @@
 <!DOCTYPE html>
-<html>
-<header>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Nick's Portfolio (WIP)</title>
-	<h1>Nick's Portfolio (WIP)</h1>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="grid.css">
-</header>
-<style>
-	p
-	{
-		text-align: center;
-	}
-	.grid-item img
-	{
-		width: 100%;
-		height: auto;
-	}
-</style>
-<body>
-	<p>My portfolio of projects and achievements</p>
-	<!--Buttons!--> 
-	<div class="buttons">
-		<button onclick="document.location = 'Pages/GameDevelopment.html'">Game Development</button>
-		<button onclick="document.location = 'Pages/Modpacks.html'">Minecraft Modpacks</button>
-		<button onclick="document.location = 'Pages/Achievements.html'">Achievements</button>
-		<button onclick="document.location = 'Pages/Photography.html'">Photography</button>
-		<button onclick="document.location = 'Pages/School.html'">School</button>
-		<button onclick="document.location = 'Pages/Fun/Fun.html'">Fun</button>
-	</div>
-	<div class="AboutMe">
-		<h1>About me</h2>
-		<div class="grid-container">
-			<div class="grid-item">
-				<div class="text-container">
-					I am a 20 year old Australian who has recently graduated from school, I have enjoyed game development/gaming and photography for a long while<br>
-					My favourite games to play are psychological horror and tactical shooters, <a href = "https://store.steampowered.com/app/1144200/Ready_or_Not/" target="_blank">Ready or Not</a>
-					and <a href = "https://store.steampowered.com/app/274520/Darkwood/" target="_blank">Darkwood</a> being some of which.
-				</div>
-			</div>
-			<div class="grid-item">
-				<img src="Photos/Photography/1nUtKv.jpg"> <br>
-			</div>
-		</div>
-	</div>
-</body>
-<footer>
-	<p>
-		Visit the github repo <a href="https://github.com/69ShadesOfPeanut/69ShadesOfPeanut.github.io" target="_blank">here</a> for the source code to this website.
-	</p>
-	<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
-	<script>
-	  kofiWidgetOverlay.draw('shadesofpeanut', {
-		'type': 'floating-chat',
-		'floating-chat.donateButton.text': 'Support me',
-		'floating-chat.donateButton.background-color': '#00b9fe',
-		'floating-chat.donateButton.text-color': '#fff'
-	  });
-	</script>
-</footer>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>Terminal Portfolio by Sat Naing</title>
+    <meta name="title" content="Terminal Portfolio by Sat Naing" />
+    <meta
+      name="description"
+      content="Sat Naing's terminal portfolio website coded with ReactJS. Sat Naing is a full-stack developer based in Yangon, Myanmar."
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://terminal.satnaing.dev/" />
+    <meta property="og:title" content="Terminal Portfolio by Sat Naing" />
+    <meta
+      property="og:description"
+      content="Sat Naing's terminal portfolio website coded with ReactJS. Sat Naing is a full-stack developer based in Yangon, Myanmar."
+    />
+    <meta
+      property="og:image"
+      content="https://terminal.satnaing.dev/sat-naing-terminal-og.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://terminal.satnaing.dev/" />
+    <meta property="twitter:title" content="Terminal Portfolio by Sat Naing" />
+    <meta
+      property="twitter:description"
+      content="Sat Naing's terminal portfolio website coded with ReactJS. Sat Naing is a full-stack developer based in Yangon, Myanmar."
+    />
+    <meta
+      property="twitter:image"
+      content="https://terminal.satnaing.dev/sat-naing-terminal-og.png"
+    />
+
+    <!-- Favicons and assets -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#1d2a35" />
+    <meta name="msapplication-TileColor" content="#1d2a35" />
+    <meta name="theme-color" content="#1d2a35" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;700&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+  <footer>
+    <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+    <script>
+      kofiWidgetOverlay.draw('shadesofpeanut', {
+      'type': 'floating-chat',
+      'floating-chat.donateButton.text': 'Support me',
+      'floating-chat.donateButton.background-color': '#00b9fe',
+      'floating-chat.donateButton.text-color': '#fff'
+      });
+    </script>  
+  </footer>
+  <style>
+    .floatingchat-container-wrap { left:unset; right: 16px; }
+    .floating-chat-kofi-popup-iframe { left:unset; right: 16px; }
+  </style>
 </html>
