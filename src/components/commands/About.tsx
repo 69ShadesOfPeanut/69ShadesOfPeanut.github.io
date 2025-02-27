@@ -17,9 +17,6 @@ const About: React.FC = () => {
       <p>
         I am passionate about game development and all things privacy.
       </p>
-      <p>
-        test text pleaseee ignore!!!
-      </p>
     </AboutWrapper>
   );
 };
