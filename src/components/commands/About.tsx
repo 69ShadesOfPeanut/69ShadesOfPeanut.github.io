@@ -8,7 +8,7 @@ const About: React.FC = () => {
   return (
     <AboutWrapper data-testid="about">
       <p>
-        Hi, my name is <HighlightSpan>Peanut test</HighlightSpan>!
+        Hi, my name is <HighlightSpan>Peanut</HighlightSpan>!
       </p>
       <p>
         I'm a<HighlightAlt> wannabe game developer</HighlightAlt> based in Victoria,
@@ -16,6 +16,9 @@ const About: React.FC = () => {
       </p>
       <p>
         I am passionate about game development and all things privacy.
+      </p>
+      <p>
+        test text pleaseee ignore!!!
       </p>
     </AboutWrapper>
   );
